@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Nitasu</title>
+    <!-- CSS INTERNAL -->
+    <style>
+        h2 {
+            background-color: blueviolet;
+        }
+
+        h1{
+            margin: 0
+        }
+    </style>
+    <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" href="css\style.css">
+
 </head>
 <body>
+    <!-- CSS INLINE -->
+    <header style="background-color: aqua;display: flex
+    ;
+        justify-content: space-evenly;font-family: monospace;">
+        <h1>Kiri</h1>
+        <h1>Kanan</h1>
+    </header>
+        
+    <article>
+        <header>
+            <h2>Subtitle</h2>
+        </header>
+
+        <p>Konten Lorem Ipsum Dolor</p>
+
+        <button onclick="showPopup();">Tampilkan Popup</button>
+    </article>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+
+    <script>
+        function showPopup() {
+            alert('Popupnya Muncul');
+        }
+    </script>
     
 </body>
 </html>
