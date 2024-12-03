@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Nitasu</title>
+
     <!-- CSS INTERNAL -->
     <style>
         h2 {
@@ -14,10 +15,11 @@
             margin: 0
         }
     </style>
+
     <!-- CSS EXTERNAL -->
     <link rel="stylesheet" href="css\style.css">
-
 </head>
+
 <body>
     <!-- CSS INLINE -->
     <header style="background-color: aqua;display: flex
@@ -27,6 +29,7 @@
         <h1>Kanan</h1>
     </header>
         
+    <!-- ARTICLE -->
     <article>
         <header>
             <h2>Subtitle</h2>
@@ -34,19 +37,27 @@
 
         <p>Konten Lorem Ipsum Dolor</p>
 
-        <button onclick="showPopup();">Tampilkan Popup</button>
+        <button class="button-pop-up" onclick="showPopup();">Tampilkan Popup</button>
     </article>
 
+   <!-- FORM INPUT -->
+    <p>
+        FORM NAMA
+    </p>
+    <input id="nama depan" name="nama depan" placeholder="Nama Depan">
+    <br />
+    <input id="nama belakang" name="nama belakang" placeholder="Nama Belakang">
+
+    <br />
+    <button class="button-ini" onclick="peringatan()">Ini adalah tombol</button>
+
+    <!-- FOOTER -->
     <footer>
         <p>Footer</p>
     </footer>
 
-
-    <script>
-        function showPopup() {
-            alert('Popupnya Muncul');
-        }
-    </script>
-    
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

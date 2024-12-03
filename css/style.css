@@ -1,3 +1,20 @@
 footer {
-    background-color: brown;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-top: 20px;
+}
+
+.button-ini {
+    margin-top: 20px;
+    }
+
+.button-pop-up {
+    margin-bottom: 70px;
 }
